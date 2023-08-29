@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+#1 Setup Project
+
+- `npx create-react-app <project-name>`
+- `cd <project-name>`
+- `npm start` or `rpm run start` or `rpx react-scripts start`
+- auto open browser localhost:3000
+
+#2 About Project
+
+- Other code เรียกว่า Dependencies อยู่ใน node_modules
+  - ลบทิ้งได้
+  - ติดตั้งใหม่ด้วย `npm install` จะทำการติดตั้ง Dependencies ที่อยู่ใน package.json ให้อัตโนมัติ
+- code เราเองอยู่ใน src
+
+#3 Clean up Project - remove unnecessary thing
+
+- clean up index.js
+- clean up App.js, App.css
+- clean up public/index.html
+- remove unnecessary file
+- restructure folder to app/ component/
